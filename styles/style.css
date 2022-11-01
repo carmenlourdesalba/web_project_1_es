@@ -19,23 +19,20 @@ div {
 
 .header {
   height: 100vh;
+
   min-height: 600px;
   max-height: 756px;
   /* parameters for the header section */
   display: flex;
   background-color: #f2f2f2;
-  flex-direction: column;
   justify-content: space-between;
 }
 
-.logo {
+.logo_place_header {
   z-index: 1;
   position: absolute;
-  top: 30px;
+  margin-top: 30px;
   margin-left: 64px;
-}
-
-.logo_place_header {
   width: 154px;
   height: 31px;
 }
@@ -44,46 +41,40 @@ div {
   width: 730px;
   margin-left: 64px;
   position: absolute;
-  justify-content: center;
-  top: 115px;
-}
-
-.header__title-text {
   font-size: 102px;
   font-style: bold;
   line-height: 96px;
+  margin-top: 250px;
 }
 
 .header__subtitle {
   width: 388px;
-  position: absolute;
   margin-left: 64px;
-  bottom: 250px;
-  z-index: 5;
+  position: absolute;
+  bottom: 490px;
+  z-index: 1;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 25px;
 }
 
-.header__subtitle-text {
+.header__link {
   line-height: 25px;
   font-size: 18px;
-  outline-style: normal;
-}
-
-.header-link {
-  margin: auto;
-}
-
-.header__link-text {
-  line-height: 25px;
-  font-size: 18px;
-  outline-style: normal;
+  font-style: normal;
+  margin-left: 64px;
+  margin-top: 700px;
+  align-items: flex-end;
+  color: #2f80ed;
 }
 
 .header__main-illustration {
+  width: 650;
+  height: 568;
+  margin-top: 100px;
+  align-items: flex-end;
+  /*position: absolute;*/
   z-index: 1;
-  position: absolute;
-  right: 0;
-  width: 756;
-  height: 608;
 }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
@@ -92,8 +83,9 @@ div {
   width: 568px;
   background-color: #2f80ed;
   position: absolute;
-  top: 64px;
-  right: 0;
+  right: 390px;
+  margin-top: 64px;
+  padding-top: 64px;
 }
 
 .two-columns {

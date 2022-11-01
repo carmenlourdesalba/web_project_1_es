@@ -28,7 +28,7 @@ div {
   justify-content: space-between;
 }
 
-.logo_place_header {
+.logo__place_header {
   z-index: 1;
   position: absolute;
   margin-top: 30px;
@@ -321,4 +321,74 @@ div {
   color: white;
   margin: auto;
   padding-top: 80px;
+}
+
+.logo__place_footer {
+  width: 183px;
+  height: 35px;
+  color: #ffffff;
+}
+
+.footer {
+  background-color: #000000;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer__columns {
+  flex-basis: 711px;
+  margin-left: 80px;
+}
+
+.footer__column_content-copyright {
+  width: 711px;
+}
+
+.footer__column_content-about {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.footer__Author {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  color: #ffffff;
+  line-height: 25px;
+  font-size: 18px;
+  font-style: normal;
+  margin-top: 170px;
+  margin-left: 20px;
+}
+
+.footer__column-heading {
+  line-height: 30px;
+  font-size: 18px;
+  font-style: bold;
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+
+.footer__column-link {
+  line-height: 30px;
+  font-size: 18px;
+  font-style: normal;
+  list-style-type: none;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__list {
+  padding-bottom: 36px;
+}
+
+.footer__column_content-social {
+  align-items: flex-start;
+}
+
+.footer__social-icons {
+  width: 16px;
+  height: 16px;
 }

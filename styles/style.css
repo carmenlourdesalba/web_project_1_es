@@ -44,14 +44,15 @@
   font-size: 102px;
   font-style: bold;
   line-height: 96px;
-  margin-top: 250px;
+  align-self: center;
 }
 
 .header__subtitle {
   width: 388px;
   margin-left: 64px;
   position: absolute;
-  margin-top: 620px;
+  padding-bottom: 60px;
+  bottom: 0;
   z-index: 1;
   font-size: 18px;
   font-style: normal;

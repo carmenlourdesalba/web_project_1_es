@@ -141,14 +141,12 @@
 
 .digits {
   padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .digits__section-title {
-  width: 60%;
-  margin-left: 20%;
-}
-
-.digits__section-title_text {
   line-height: 1.15px;
   font-size: 60px;
   font-style: bold;
@@ -156,12 +154,7 @@
 }
 
 .digits__section-subtitle {
-  width: 60%;
-  margin-left: 20%;
   margin-top: 20px;
-}
-
-.digits__section-subtitle_text {
   line-height: 34px;
   font-size: 24px;
   font-style: normal;

@@ -59,14 +59,6 @@
   line-height: 25px;
 }
 
-.header__link_position {
-  margin-left: 64px;
-  padding-bottom: 35px;
-  position: absolute;
-  bottom: 0;
-  display: flex;
-}
-
 .header__link {
   line-height: 25px;
   font-size: 18px;
@@ -239,11 +231,12 @@
 
 .kaufman {
   display: flex;
-  justify-content: space-around;
+  position: relative;
+  align-items: initial;
   flex-direction: column;
   padding-bottom: 90px;
   background-color: #000000;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .kaufman__triangule {
@@ -330,23 +323,30 @@
 .footer {
   background-color: #000000;
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 90%;
+}
+
+.footer__columns {
+  display: flex;
+  justify-content: space-evenly;
+  width: auto;
+}
+
+.footer__column {
   display: flex;
   flex-direction: row;
 }
 
-.footer__columns {
-  flex-basis: 711px;
-  margin-left: 80px;
-}
-
 .footer__column_content-copyright {
-  width: 711px;
+  flex-basis: 711px;
+  justify-content: space-between;
 }
 
 .footer__column_content-about {
-  padding-left: 5%;
-  padding-right: 5%;
+  row-gap: initial;
 }
 
 .footer__Author {
@@ -356,8 +356,6 @@
   line-height: 25px;
   font-size: 18px;
   font-style: normal;
-  margin-top: 170px;
-  margin-left: 20px;
 }
 
 .footer__column-heading {
@@ -365,14 +363,12 @@
   font-size: 18px;
   font-style: bold;
   color: #ffffff;
-  padding-bottom: 20px;
 }
 
 .footer__column-link {
   line-height: 30px;
   font-size: 18px;
   font-style: normal;
-  list-style-type: none;
   color: #ffffff;
   margin: 0;
   padding: 0;
@@ -380,13 +376,16 @@
 
 .footer__list {
   padding-bottom: 36px;
+  list-style: none;
+  padding: 0;
 }
 
 .footer__column_content-social {
-  align-items: flex-start;
+  row-gap: initial;
 }
 
 .footer__social-icons {
   width: 16px;
   height: 16px;
+  margin-right: 10px;
 }

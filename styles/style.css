@@ -142,8 +142,6 @@
   line-height: 1.15px;
   font-size: 60px;
   font-style: bold;
-  width: 60%;
-  margin-left: 37%;
 }
 
 .digits__section-subtitle {
@@ -153,8 +151,6 @@
   font-style: normal;
   text-align: center;
   padding-top: 20px;
-  width: 60%;
-  margin-left: 20%;
 }
 
 .table {
@@ -221,6 +217,7 @@
   font-size: 36px;
   font-style: normal;
   right: 20%;
+  margin-top: 8%;
 }
 
 .feynman__image {

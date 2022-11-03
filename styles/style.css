@@ -83,7 +83,7 @@
   width: 568px;
   background-color: #2f80ed;
   position: absolute;
-  right: 0px;
+  right: 0;
   top: 60px;
   align-self: flex-start;
 }
@@ -142,7 +142,8 @@
   line-height: 1.15px;
   font-size: 60px;
   font-style: bold;
-  text-align: center;
+  width: 60%;
+  margin-left: 37%;
 }
 
 .digits__section-subtitle {
@@ -152,6 +153,8 @@
   font-style: normal;
   text-align: center;
   padding-top: 20px;
+  width: 60%;
+  margin-left: 20%;
 }
 
 .table {
@@ -247,70 +250,48 @@
   background-size: 55%;
 }
 
-.kayfman__section-title_theme-dark {
+.kayfman__section-title_theme_dark {
   width: 60%;
   margin-left: 20%;
   color: #ffffff;
   text-align: center;
   align-content: center;
   padding-top: 90px;
-}
-
-.kaufman__section-title-text_theme-dark {
   line-height: 1, 15px;
   font-size: 60px;
   font-style: bold;
-
-  color: #ffffff;
 }
 
-.kaufman__section-subtitle_theme-dark {
+.kaufman__section-subtitle_theme_dark {
   width: 60%;
   margin-left: 20%;
   margin-top: 20px;
   color: #ffffff;
-}
-
-.kaufman__section-subtitle-text_theme-dark {
   line-height: 34px;
   font-size: 24px;
   font-style: normal;
   text-align: center;
-  color: #ffffff;
 }
 
-.table__theme-dark {
-  width: 1100px;
+.table__theme_dark {
   margin-top: 60px;
-  display: flex;
-  margin: auto;
-  flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-around;
   margin-bottom: 60px;
 }
 
 /* including elements with key-value modifiers */
-.table__heading_theme-dark {
-  color: white;
-  font-size: 24px;
-  font-style: bold;
-  line-height: 1, 15px;
+.table__heading_theme_dark {
+  margin-top: 80px;
 }
 
-.table__text_theme-dark {
-  line-height: 1, 2px;
+.table__text_theme_dark {
   color: white;
-  padding-top: 18px;
-  font-style: normal;
-  text-align: left;
+  padding-top: 20px;
 }
 
-.table__cell_theme-dark {
+.table__cell_theme_dark {
   width: 200px;
-  list-style-type: none;
   color: white;
-  margin: auto;
   padding-top: 80px;
 }
 

@@ -161,6 +161,7 @@
   margin-left: 15%;
   padding-bottom: 100px;
   row-gap: initial;
+  position: relative;
 }
 
 .table__cell {
@@ -205,8 +206,8 @@
   font-size: 36px;
   font-style: normal;
   position: absolute;
-  left: 45%;
-  margin-top: 13%;
+  left: 46%;
+  margin-top: 17%;
 }
 
 .feynman__link {
@@ -216,14 +217,11 @@
   line-height: 51px;
   font-size: 36px;
   font-style: normal;
-  right: 20%;
-  margin-top: 8%;
+  right: 0;
+  margin-right: 10%;
 }
 
 .feynman__image {
-  background-image: url("../images/feynman.png");
-  background-position: left;
-  background-repeat: no-repeat;
   width: 867px;
   height: 637px;
   margin-top: 60px;
@@ -236,15 +234,17 @@
   flex-direction: column;
   padding-bottom: 90px;
   background-color: #000000;
-  overflow: visible;
+  overflow: hidden;
 }
 
 .kaufman__triangule {
-  background-image: url("../images/kaufman-triangle.svg");
-  background-position-x: 145%;
-  background-position-y: 5%;
-  background-repeat: no-repeat;
-  background-size: 55%;
+  width: 568;
+  height: 636px;
+  position: absolute;
+  transform: scale(115%);
+  margin-top: 50px;
+  margin-left: 68%;
+  z-index: 0;
 }
 
 .kayfman__section-title_theme_dark {
@@ -257,12 +257,15 @@
   line-height: 1, 15px;
   font-size: 60px;
   font-style: bold;
+  position: absolute;
+  z-index: 1;
 }
 
 .kaufman__section-subtitle_theme_dark {
   width: 60%;
   margin-left: 20%;
-  margin-top: 20px;
+  margin-top: 15%;
+  padding-top: 20px;
   color: #ffffff;
   line-height: 34px;
   font-size: 24px;
@@ -303,24 +306,25 @@
   padding-top: 60px;
   padding-bottom: 40px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   min-height: 90%;
+  position: relative;
 }
 
 .footer__columns {
   display: flex;
   justify-content: space-evenly;
-  width: auto;
+  width: 100%;
 }
 
 .footer__column {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .footer__column_content_copyright {
   flex-basis: 711px;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .footer__column_content_about {
@@ -328,8 +332,8 @@
 }
 
 .footer__Author {
-  padding-top: 18px;
-  padding-bottom: 18px;
+  padding-top: 20%;
+  margin-bottom: 5%;
   color: #ffffff;
   line-height: 25px;
   font-size: 18px;

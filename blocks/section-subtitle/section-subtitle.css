@@ -1,0 +1,11 @@
+@import url(__theme/section-subtitle__theme.css);
+
+.section-subtitle {
+  margin-top: 20px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  padding-top: 20px;
+  width: 60%;
+}

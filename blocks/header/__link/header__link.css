@@ -1,5 +1,9 @@
+@import url(_hover/header__link_hover.css);
+
 .header__link {
   color: #2f80ed;
   display: flex;
   text-decoration: none;
+  opacity: 1;
+  transition: opacity 0.1s ease-in-out 0.1s;
 }

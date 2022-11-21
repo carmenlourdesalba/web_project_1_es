@@ -1,3 +1,5 @@
+@import url(_hover/feynman__link_hover.css);
+
 .feynman__link {
   text-decoration: none;
   color: #2f80ed;
@@ -8,4 +10,5 @@
   font-size: 36px;
   font-weight: normal;
   right: 48px;
+  transition: opacity 0.3s ease-in-out 0.1s;
 }

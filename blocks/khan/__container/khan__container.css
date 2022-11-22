@@ -1,4 +1,5 @@
 .khan__container {
   width: 80%;
-  position: absolute;
+  margin: 105px 0 auto;
+  overflow: hidden;
 }

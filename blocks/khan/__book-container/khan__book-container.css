@@ -1,4 +1,8 @@
 .khan__book-container {
-  width: 620px;
-  height: 608px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 68px;
+  display: flex;
+  flex-direction: row;
+  row-gap: 40px;
 }

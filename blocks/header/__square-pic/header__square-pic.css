@@ -6,4 +6,5 @@
   right: 0;
   top: 60px;
   align-self: flex-start;
+  animation: rotation 20s linear infinite;
 }

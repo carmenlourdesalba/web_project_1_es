@@ -4,5 +4,5 @@
   margin-top: 68px;
   display: flex;
   flex-direction: row;
-  row-gap: 40px;
+  gap: 40px;
 }

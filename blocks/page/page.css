@@ -8,3 +8,7 @@
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
+
+html {
+  overflow-x: hidden;
+}

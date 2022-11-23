@@ -7,6 +7,6 @@
   top: 60px;
   align-self: flex-start;
   z-index: 0;
-  /* animation: rotation 20s linear infinite; */
   transform: -15deg;
+  animation: rotation 20s linear infinite;
 }

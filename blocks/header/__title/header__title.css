@@ -5,4 +5,5 @@
   font-style: bold;
   line-height: 96px;
   align-self: center;
+  z-index: 1;
 }
